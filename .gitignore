@@ -1,0 +1,57 @@
+# Environment and secrets (create .env from .env.example; do not commit .env)
+.env
+.env.local
+*.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Generated model and training outputs (train_model.py writes these)
+saved_model/
+output/
+*.keras
+*.h5
+*.hdf5
+training_log.txt
+
+# Dataset folders (large; train/, valid/, test/ with Level1–Level4 images)
+train/
+valid/
+test/
+
+# Dataset zips and extracted support data
+*.zip
+Support_images_extracted/
+
+# Optional: generated Python version info
+# python_version_info.txt
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.tmp
+.cache/

@@ -1,0 +1,15 @@
+# Detected Python on this computer
+
+# Python 3.11 (use this for TensorFlow / train_model.py)
+Version: 3.11
+Path: C:\Users\Zaidz\AppData\Local\Programs\Python\Python311\python.exe
+Launcher: py -3.11
+
+# Python 3.14 (default for py -3)
+Version: 3.14
+Path: C:\Users\Zaidz\AppData\Local\Python\pythoncore-3.14-64\python.exe
+Launcher: py -3
+
+# To train the model, use 3.11:
+#   py -3.11 -m pip install -r requirements.txt
+#   py -3.11 train_model.py
