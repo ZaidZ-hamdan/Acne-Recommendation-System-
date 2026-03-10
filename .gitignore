@@ -31,11 +31,6 @@ output/
 *.hdf5
 training_log.txt
 
-# Dataset folders (large; train/, valid/, test/ with Level1–Level4 images)
-train/
-valid/
-test/
-
 # Dataset zips and extracted support data
 *.zip
 Support_images_extracted/
