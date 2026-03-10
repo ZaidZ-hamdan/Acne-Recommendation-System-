@@ -52,16 +52,16 @@ Images can be `.jpg` or `.png`. The folder name is the label.
 From the project folder:
 
 ```bash
-py -3.11 train_model.py
+py -3.11 model/train_model.py
 ```
 
-Or use the batch file (Windows):
+Or use the batch file (Windows) if it points to this path:
 
 ```bash
 run_training.bat
 ```
 
-Trained model and class names are saved in `saved_model/`. Plots and reports go to `output/`.
+Trained model and class names are saved in `saved_model/`. Plots and reports go to `output/`. To regenerate report figures: `py -3.11 model/generate_figures.py`.
 
 ## Running the app
 
@@ -73,10 +73,9 @@ Then open the URL shown (usually http://localhost:8501). Use **Acne Detection** 
 
 ## Project structure
 
-- `app.py` — Streamlit application.
-- `train_model.py` — CNN training (MobileNetV2, two-phase training).
-- `demo_test_model.py` — Test the model on images.
-- `generate_figures.py` — Generate charts for the report (run after training).
+- `app.py` — Streamlit application (run from project root).
+- `model/train_model.py` — CNN training (MobileNetV2, two-phase training).
+- `model/generate_figures.py` — Generate charts for the report (run after training).
 - `saved_model/` — Trained model and `class_names.json`.
 - `output/` — Training curves, confusion matrix, classification report.
 - `train/`, `valid/`, `test/` — Dataset folders (not in repo if excluded by `.gitignore`).

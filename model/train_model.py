@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.utils.class_weight import compute_class_weight
 import seaborn as sns
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 TRAIN_DIR = ROOT / "train"
 VALID_DIR = ROOT / "valid"
 TEST_DIR = ROOT / "test"
