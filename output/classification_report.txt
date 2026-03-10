@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      Level1     0.7637    0.8458    0.8027       214
+      Level2     0.7668    0.7066    0.7355       242
+      Level3     0.6733    0.6800    0.6766       100
+      Level4     0.8298    0.7500    0.7879        52
+
+    accuracy                         0.7549       608
+   macro avg     0.7584    0.7456    0.7507       608
+weighted avg     0.7557    0.7549    0.7539       608
