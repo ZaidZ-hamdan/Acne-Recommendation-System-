@@ -24,8 +24,6 @@ build/
 *.ipynb_checkpoints
 
 # Generated model and training outputs (train_model.py writes these)
-saved_model/
-output/
 *.keras
 *.h5
 *.hdf5
